@@ -1,3 +1,6 @@
+#ifndef HM_HASH_MAP
+#define HM_HASH_MAP
+
 #include <stdlib.h>
 #include <stdint.h>
 #include <string.h>
@@ -41,3 +44,4 @@ void hash_map_iter(hash_map *map, hash_map_iter_fn iter_fn);
 
 void hash_map_destroy(hash_map *map);
 
+#endif
